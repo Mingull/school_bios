@@ -5,12 +5,12 @@
 	<div class="container">
 		<div id="grid" class="grid">
 			<% movies.forEach((movie) => { %>
-			<div class="col" onclick="location.href='/movie/<%= movie.slug %>'">
+			<div class="col" onclick="location.href='/grid/movie/<%= movie.slug %>'">
 				<img class="thumbnail" src="<%= movie.thumbnail %>" alt="<%= movie.name %>" />
 
 				<p class="title"><%= movie.name %></p>
 				<p class="description"><%= movie.summary %></p>
-				<a class="release" href="/movie/<%= movie.slug %>">More -></a>
+				<a class="release" href="/grid/movie/<%= movie.slug %>">More -></a>
 			</div>
 			<% }); %>
 		</div>

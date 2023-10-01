@@ -1,9 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body></body>
-</html>
+<section class="section">
+	<div class="container">
+		<div class="divide movie">
+			<img src="<%= movie.thumbnail %>" alt="<%= movie.name %>" />
+			<div class="content">
+				<h2><%= movie.name %></h2>
+				<p class="released">Uitgebracht jaar: <%= movie.release %></p>
+
+				<% for (let i = 0; i < movie.description.split(".").length; i++) { %>
+				<p><%= movie.description.split(".")[i] + '.' %></p>
+				<% } %>
+			</div>
+		</div>
+	</div>
+</section>

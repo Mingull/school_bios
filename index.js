@@ -12,7 +12,7 @@ app.use(express.static("public"));
 
 app.get("/grid/", async (req, res) => {
 	const movies = await loadMovies();
-	res.render("(grid)/index", { movies });
+	res.render("(grid)/index", { movies, title: "Spider-scoop" });
 });
 
 app.get("/grid/movie/:slug", async (req, res) => {
@@ -20,7 +20,11 @@ app.get("/grid/movie/:slug", async (req, res) => {
 
 	const movie = movies.find((movie) => movie.slug === req.params.slug);
 
-	res.render("(grid)/movie", { movie });
+	res.render("(grid)/movie", { movie, title: movie.name + " | Spider-scoop" });
+});
+
+app.get("/grid/about", (req, res) => {
+	res.render("(grid)/about", { title: "About | Spider-scoop" });
 });
 
 app.listen(port, () => {

@@ -3,7 +3,8 @@
 		"name": "Spider-man",
 		"slug": "spider-man",
 		"thumbnail": "/images/spider-man.jpg",
-		"summary": "Nadat student Peter Parker gebeten wordt door een radioactieve spin, krijgt hij superkrachten. Hij moet snel aan zijn nieuwe kracht wennen, want hij zal het moeten opnemen tegen de maniakale Green Goblin.",
+		"summary": "Nadat student Peter Parker gebeten wordt door een radioactieve spin, krijgt hij superkrachten.\nHij moet snel aan zijn nieuwe kracht wennen, want hij zal het moeten opnemen tegen de maniakale Green Goblin.",
+		"description": "Tijdens een schoolreisje naar Columbia University wordt Peter Parker, een verlegen, nerdy outcast van de middelbare school, gebeten door een genetisch verbeterde spin. Peter ontdekt dat de spin hem de bovenmenselijke capaciteiten van een spin heeft verleend. Hij gebruikt zijn krachten goed nadat hij getuige is geweest van de dood van zijn oom. Peter wordt de gemaskerde burgerwacht die bekend staat als Spider-Man en hij wordt de beschermer van de stad. Het leven van Peter wordt echter ingewikkelder als hij wordt geconfronteerd met zijn aartsvijand, de Green Goblin, die de stad die hij heeft gezworen te beschermen begint te terroriseren, maar zijn liefde voor Mary Jane zal uiteindelijk de moorddadige doelen van de Goblin in de weg staan.",
 		"release": 2002
 	},
 	{
@@ -11,6 +12,7 @@
 		"slug": "spider-man-two",
 		"thumbnail": "/images/spider-man2.jpg",
 		"summary": "Superheld Spider-Man komt oog in oog te staan met een nieuwe tegenstander: Doc Ock,een gevaarlijke maniak met verwoestende metalen tentakels.",
+		"description": "Op de rand van een zenuwinzinking leert Peter Parker, die nu natuurkunde studeert aan de Universiteit van Columbia, op de harde manier dat het leven alleen maar moeilijker is geworden. Het is nog maar twee jaar geleden sinds de dood van Norman Osborn in Spider-Man (2002), en Mary Jane geeft Peter nu op en tante May wordt geconfronteerd met een dreigende uitsluiting. Terwijl Parker zijn draai probeert te vinden, onzeker of hij een misdaadbestrijder wil zijn of niet, brengt een bizar ongeluk in naam van de wetenschap een nieuwe superschurk ter wereld: de geobsedeerde, gekke wetenschapper met meerdere tentakels, Doc Ock. Deze keer, wanneer de wereld hem het meest nodig heeft, moet Peter kiezen tussen trouw blijven aan zijn roeping of wegblijven van Mary Jane, het meisje van zijn dromen. Zal Peter Parker zijn lot als Spider-Man, de verdediger van New York City, omarmen?",
 		"release": 2004
 	},
 	{
@@ -18,6 +20,7 @@
 		"slug": "spider-man-three",
 		"thumbnail": "/images/spider-man3.jpg",
 		"summary": "Het pak van Peter Parker wordt zwart en haalt het slechtste in hem naar boven. Ook moet Peter het opnemen tegen Sandman en Venom.",
+		"description": "Peter Parker is eindelijk gelukkig: hij doet het goed op school, zijn vriendin MJ Watson houdt van hem en de hele stad houdt van zijn misdaadbestrijdende alter ego Spider-Man, waardoor hij eindelijk de lof krijgt die hij zo terecht verdient. Afgezien hiervan heeft hij een aantal nieuwe vijanden en rivalen gemaakt. Zijn voormalige vriend en vijand Harry Osborn is de New Goblin geworden en wil zijn vader wreken door Spider-Man te vermoorden. Op een nacht maakt een buitenaardse symbiont uit de ruimte een noodlanding in de buurt van Peter en hecht zich aan zijn Spider-pak, waardoor het zwart van kleur wordt en zijn krachten worden vergroot. Flint Marko, een voortvluchtige, verandert in The Sandman wanneer hij wordt onderworpen aan een moleculair laboratoriumexperiment. Overigens is Marko de persoon van wie wordt onthuld dat hij Peter's oom Ben heeft vermoord en nu wil Peter wraak. Peter's baan als freelance fotograaf bij The Daily Bugle wordt overgenomen door Eddie Brock. Peter ontdekt ook dat de zwarte symbiont niet alleen zijn krachten heeft vergroot, maar ook de duistere kant in hem naar boven heeft gehaald, waardoor hij er meedogenloos in slaagt Eddie uit zijn baan te gooien. Wanneer MJ het uitmaakt, begint hij te daten met zijn medestudent Gwen Stacy, de ex van Edie, om ze allebei jaloers te maken. Al snel moet Peter beslissen of hij zijn duistere kant zijn persoonlijkheid moet laten domineren of niet.",
 		"release": 2007
 	},
 	{
@@ -25,6 +28,7 @@
 		"slug": "amazing-spider-man",
 		"thumbnail": "/images/the_amazing_spider-man.jpg",
 		"summary": "Peter Parker gebruikt zijn nieuwe superkrachten om de misdaad te bestrijden als Spider-Man. Tegelijekrtijd worstelt hij met zijn verleden en de mysterieuze verdwijning van zijn ouders.",
+		"description": "Peter Parker is een zeventienjarige middelbare scholier aan Midtown High, hij is in het geheim verliefd op Gwen Stacy en wordt voortdurend gepest door Flash Thompson. Het leven van Peter is voor hem enorm veranderd sinds zijn ouders hem verlieten toen hij nog maar vier jaar oud was en hij ongeveer dertien jaar onder de hoede van zijn oom en tante is geplaatst. Peter wil nog steeds meer te weten komen over zijn verleden en hij wil weten waarom zijn ouders hem hebben verlaten. Peter vindt de koffer van zijn vader en hij ontdekt dat zijn vader bij Oscorp heeft gewerkt met Dr. Curtis Connors, een briljante wetenschapper en herpetoloog. Peter is vastbesloten om antwoorden te vinden bij de voormalige partner van zijn vader. Het leven van Peter verandert echter al snel wanneer hij tijdens zijn reis naar Oscorp door een spin wordt gebeten en hij spinachtige krachten krijgt. Peter is al snel getuige van de moord op zijn oom door een winkeldief en hij zweert zijn krachten te gebruiken voor het grotere goed en hij noemt zichzelf Spider-Man. Peters nieuwe vriendschap met Connors wordt op de proef gesteld wanneer hij moet vechten tegen de Lizard, het dodelijke alter ego van Connors, die van plan is de stad te infecteren.",
 		"release": 2012
 	},
 	{
@@ -32,6 +36,7 @@
 		"slug": "amazing-spider-man/two",
 		"thumbnail": "/images/the_amazing_spider-man2.jpg",
 		"summary": "Peter Parker voelt zich goed in zijn nieuwe rol als held en verdeelt zijn tijd tussen Gwen Stacy en het beschermen van New York tegen misdadigers. Zijn grootste strijd komt wanneer Electro verschijnt.",
+		"description": "We hebben altijd geweten dat het belangrijkste conflict van Spider-Man zich binnen hemzelf afspeelde: de strijd tussen de gewone verplichtingen van Peter Parker en de buitengewone verantwoordelijkheden van Spider-Man. Maar in The Amazing Spider-Man 2 ontdekt Peter Parker dat zijn grootste gevecht op het punt staat te beginnen. Het is geweldig om Spider-Man te zijn. Voor Peter Parker is er niets beters dan tussen wolkenkrabbers slingeren, de rol van held omarmen en tijd doorbrengen met Gwen. Maar Spider-Man zijn heeft een prijs: alleen Spider-Man kan zijn mede-New Yorkers beschermen tegen de formidabele schurken die de stad bedreigen. Met de opkomst van Electro moet Peter het opnemen tegen een vijand die veel machtiger is dan hij. En als zijn oude vriend, Harry Osborn, terugkeert, komt Peter tot het besef dat al zijn vijanden één ding gemeen hebben: Oscorp.",
 		"release": 2014
 	},
 	{
@@ -39,6 +44,7 @@
 		"slug": "spider-man-homecoming",
 		"thumbnail": "/images/spider-man_homecoming.jpg",
 		"summary": "Student Peter Parker omarmt zijn identiteit als Spiderman om Vulture te bestrijden. Hiermee zet hij zijn familie en vrienden echter recht in de vuurlinie.",
+		"description": "In de nasleep van Captain America: Civil War (2016) bevindt Peter Parker, een 15-jarige tweedejaarsstudent en de protégé van Tony Stark, zich terug in Queens, New York, waar hij probeert de middelbare school en zijn superheld-alter-ego te combineren. Terwijl Peter op spelden en naalden wacht tot zijn mentor hem de kans geeft om zijn moed te bewijzen en een officiële Avenger te worden, kiest Stark ervoor om Peter aan een korte lijn te houden, uit angst dat de jongen meer afbijt dan hij kan kauwen. En dan komt de Vulture tevoorschijn, een gevleugelde supercrimineel die met geavanceerde Chitauri-wapens zwaait. Natuurlijk ziet Parker zijn komst als een gouden kans om te laten zien dat hij het in zich heeft om deel uit te maken van het machtigste superheldenteam ter wereld. Maar is Spider-Man er klaar voor om meer te zijn dan de vriendelijke, webslingerende verdediger van de buurt?",
 		"release": 2017
 	},
 	{
@@ -46,6 +52,7 @@
 		"slug": "spider-man-into-spider-verse",
 		"thumbnail": "/images/spider-man_into_the_spider-verse.jpg",
 		"summary": "Hij beschermt de buurt tegen misdaad. Zij ook. En die kleine daar ook. Als je erin gelooft, past iedereen het masker.",
+		"description": "Miles Morales, een slimme tiener uit Brooklyn, worstelt om zijn plek in de wereld te vinden terwijl hij de balans moet vinden tussen school en gezin, en schrijft zich met tegenzin in op een elite kostschool in New York City. Miles worstelt met zijn nieuwe verantwoordelijkheden en ontdekt een hele nieuwe wereld, verborgen in een verlaten metrotunnel in New York, maar wordt gebeten door een sluipende radioactieve spinachtige uit een andere dimensie. Nu, begiftigd met ondoorgrondelijke krachten, net als de originele Spider-Man (2002), is Miles geschokt als hij ontdekt dat het leven nog ingewikkelder is geworden, zonder dat hij het weet dat hij op het punt staat verstrikt te raken in het midden van een vreselijke interdimensionale situatie. conflict. Nu het lot van het multiversum aan een zijden draadje hangt, heeft de jonge en volkomen onervaren Miles steeds meer geen andere keuze dan zijn nieuwe vaardigheden onder de knie te krijgen, ook al gelooft hij dat niet iedereen geschikt is om een held te zijn. Maar een held is niet degene die altijd wint. Het is degene die het altijd probeert. Kan Miles de sprong wagen en Spider-Man worden?",
 		"release": 2018
 	},
 	{
@@ -53,6 +60,7 @@
 		"slug": "spider-man-far-from-home",
 		"thumbnail": "/images/spider-man_far_from_home.jpg",
 		"summary": "Spider-Man bundelt zijn krachten met Nick Fury en Mysterio om te voorkomen dat vier gigantische elementaire wezens, die elk aarde, lucht, water en vuur vertegenwoordigen, gigantische schade aanrichten in heel Europa.",
+		"description": "Kort na de cataclysmische gebeurtenissen van Avengers: Endgame (2019) verlangt Peter Parker naar normaliteit in een post-Blip-wereld. Om stoom af te blazen gaan Parker en zijn klasgenoten van de Mid-town School of Science and Technology op een zomerse excursie van twee weken naar Europa, en deze keer is hij vastbesloten zijn crush, MJ, mee uit te vragen. Nick Fury, de no-nonsense oprichter van de Avengers, heeft echter andere plannen in petto voor de zestienjarige superheld, terwijl de Elementals, almachtige, interdimensionale wezens gevormd uit de primaire elementen, beginnen te vechten. op aarde materialiseren en grote schade aanrichten over de hele wereld. Verrassend genoeg heeft slechts één man zich verzet tegen deze nieuwe vorm van dreiging en het verhaal weten te vertellen: Mysterio, een dappere nieuwe held. Terwijl de nieuwste tegenstander van de mensheid Venetië van de aardbodem dreigt weg te vagen, bundelt Spider-Man zijn krachten met Mysterio om een handje te helpen in de strijd, maar hij maakt een rampzalige fout. Had Tony Stark uiteindelijk ongelijk over Peter?",
 		"release": 2019
 	},
 	{
@@ -60,6 +68,7 @@
 		"slug": "spider-man-no-way-home",
 		"thumbnail": "/images/spider-man_no_way_home.jpg",
 		"summary": "De identiteit van Spider-Man is onthuld, en hij kan zijn normale leven niet langer gescheiden houden van zijn gevaarlijke leven als superheld. Als hij Doctor Strange om hulp vraagt, staat er meer op het spel dan ooit tevoren. Hierdoor wordt hij gedwongen om onder ogen te zien wat het nu echt betekent om Spider-Man te zijn.",
+		"description": "Nu zijn identiteit in gevaar is, staat Peter Parker, direct na de spectaculaire confrontatie met superheld-charlatan Mysterio in Spider-Man: Far from Home (2019), nu met zijn rug tegen de muur. Op de vlucht en omdat hij bij niemand terecht kan voor advies, zoekt de wanhopige Peter naar een radicale en even gevaarlijke oplossing om een fout recht te zetten, zich totaal niet bewust van de ernstige gevolgen van zijn onverstandige beslissing. En terwijl het ondoorgrondelijke Multiversum zich wraakzuchtig uitbreidt, zoeken ook geduchte tegenstanders uit een niet zo ver verleden naar afsluiting en eisen ze het hoofd van de Spin op een schaal. Maar als er geen weg naar huis is en je je nergens kunt verstoppen, wie kan Parker dan vertrouwen?",
 		"release": 2021
 	},
 	{
@@ -67,6 +76,7 @@
 		"slug": "spider-man-across-spider-verse",
 		"thumbnail": "/images/spider-man_across_the_spider-verse.jpg",
 		"summary": "Wanneer Miles Morales onverwachts bezocht wordt door Gwen Stacy, wordt hij meegezogen in een missie om alle universums te redden tegen een nieuwe vijand. Tijdens hun reis door het multiversum ontmoeten ze een team van Spider-People.",
+		"description": "Miles Morales keert opnieuw terug om het multiversum te redden! Nadat Miles herenigd is met Gwen Stacy, racet hij door het multiversum om te proberen een krachtige vijand te verslaan die bekend staat als de Spot. Hij ontmoet veel andere spinnenmensen. Maar Miguel O'Hara keurt de acties van Miles om iedereen te redden, na canongebeurtenissen, niet goed. Hij belandt op de vlucht voor Miguel en honderden andere spinnenmensen. Zal Miles het multiversum redden? Je staat op het punt om erachter te komen.",
 		"release": 2023
 	}
 ]
