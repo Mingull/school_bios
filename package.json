@@ -1,0 +1,16 @@
+{
+	"name": "bioscoop_website",
+	"version": "1.0.0",
+	"description": "school website",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon ."
+	},
+	"author": "Mingull",
+	"license": "ISC",
+	"dependencies": {
+		"ejs": "^3.1.9",
+		"express": "^4.18.2",
+		"express-ejs-layouts": "^2.5.1"
+	}
+}

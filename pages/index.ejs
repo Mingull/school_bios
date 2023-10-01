@@ -1,0 +1,18 @@
+<section class="section box">
+	<div class="carrousel"></div>
+</section>
+<section class="section">
+	<div class="container">
+		<div id="grid" class="grid">
+			<% movies.forEach((movie) => { %>
+			<div class="col card" onclick="location.href='/movie/<%= movie.slug %>'">
+				<img class="thumbnail" src="<%= movie.thumbnail %>" alt="<%= movie.name %>" />
+				<div class="content">
+					<p class="title"><%= movie.name %></p>
+					<p class="release"><%= movie.release %></p>
+				</div>
+			</div>
+			<% }); %>
+		</div>
+	</div>
+</section>

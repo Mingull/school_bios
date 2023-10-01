@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Spider-man",
+		"slug": "spider-man",
+		"thumbnail": "/images/spider-man.jpg",
+		"release": 2002
+	},
+	{
+		"name": "Spider-man 2",
+		"slug": "spider-man-two",
+		"thumbnail": "/images/spider-man2.jpg",
+		"release": 2002
+	},
+	{
+		"name": "Spider-man 3",
+		"slug": "spider-man-three",
+		"thumbnail": "/images/spider-man3.jpg",
+		"release": 2002
+	},
+	{
+		"name": "The amazing Spider-man",
+		"slug": "amazing-spider-man",
+		"thumbnail": "/images/the_amazing_spider-man.jpg",
+		"release": 2002
+	},
+	{
+		"name": "The amazing Spider-man 2",
+		"slug": "amazing-spider-man/two",
+		"thumbnail": "/images/the_amazing_spider-man2.jpg",
+		"release": 2002
+	},
+	{
+		"name": "Spider-man: Homecoming",
+		"slug": "spider-man-homecoming",
+		"thumbnail": "/images/spider-man_homecoming.jpg",
+		"release": 2002
+	},
+	{
+		"name": "Spider-man: Far from home",
+		"slug": "spider-man-far-from-home",
+		"thumbnail": "/images/spider-man_far_from_home.jpg",
+		"release": 2002
+	},
+	{
+		"name": "Spider-man: No way home",
+		"slug": "spider-man-no-way-home",
+		"thumbnail": "/images/spider-man_no_way_home.jpg",
+		"release": 2002
+	},
+	{
+		"name": "Spider-man: Into the Spider-Verse",
+		"slug": "spider-man-into-spider-verse",
+		"thumbnail": "/images/spider-man_into_the_spider-verse.jpg",
+		"release": 2002
+	},
+	{
+		"name": "Spider-man: Across the Spider-Verse",
+		"slug": "spider-man-across-spider-verse",
+		"thumbnail": "/images/spider-man_across_the_spider-verse.jpg",
+		"release": 2002
+	}
+]
