@@ -30,6 +30,8 @@ app.listen(port, () => {
  * @typedef {{
  *  name:string,
  * 	slug: string,
+ * 	summary:string,
+ * 	description: string,
  *  thumbnail:string,
  * 	release:number
  * 	}} Movie

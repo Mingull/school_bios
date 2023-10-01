@@ -3,60 +3,70 @@
 		"name": "Spider-man",
 		"slug": "spider-man",
 		"thumbnail": "/images/spider-man.jpg",
+		"summary": "Nadat student Peter Parker gebeten wordt door een radioactieve spin, krijgt hij superkrachten. Hij moet snel aan zijn nieuwe kracht wennen, want hij zal het moeten opnemen tegen de maniakale Green Goblin.",
 		"release": 2002
 	},
 	{
 		"name": "Spider-man 2",
 		"slug": "spider-man-two",
 		"thumbnail": "/images/spider-man2.jpg",
-		"release": 2002
+		"summary": "Superheld Spider-Man komt oog in oog te staan met een nieuwe tegenstander: Doc Ock,een gevaarlijke maniak met verwoestende metalen tentakels.",
+		"release": 2004
 	},
 	{
 		"name": "Spider-man 3",
 		"slug": "spider-man-three",
 		"thumbnail": "/images/spider-man3.jpg",
-		"release": 2002
+		"summary": "Het pak van Peter Parker wordt zwart en haalt het slechtste in hem naar boven. Ook moet Peter het opnemen tegen Sandman en Venom.",
+		"release": 2007
 	},
 	{
 		"name": "The amazing Spider-man",
 		"slug": "amazing-spider-man",
 		"thumbnail": "/images/the_amazing_spider-man.jpg",
-		"release": 2002
+		"summary": "Peter Parker gebruikt zijn nieuwe superkrachten om de misdaad te bestrijden als Spider-Man. Tegelijekrtijd worstelt hij met zijn verleden en de mysterieuze verdwijning van zijn ouders.",
+		"release": 2012
 	},
 	{
 		"name": "The amazing Spider-man 2",
 		"slug": "amazing-spider-man/two",
 		"thumbnail": "/images/the_amazing_spider-man2.jpg",
-		"release": 2002
+		"summary": "Peter Parker voelt zich goed in zijn nieuwe rol als held en verdeelt zijn tijd tussen Gwen Stacy en het beschermen van New York tegen misdadigers. Zijn grootste strijd komt wanneer Electro verschijnt.",
+		"release": 2014
 	},
 	{
 		"name": "Spider-man: Homecoming",
 		"slug": "spider-man-homecoming",
 		"thumbnail": "/images/spider-man_homecoming.jpg",
-		"release": 2002
-	},
-	{
-		"name": "Spider-man: Far from home",
-		"slug": "spider-man-far-from-home",
-		"thumbnail": "/images/spider-man_far_from_home.jpg",
-		"release": 2002
-	},
-	{
-		"name": "Spider-man: No way home",
-		"slug": "spider-man-no-way-home",
-		"thumbnail": "/images/spider-man_no_way_home.jpg",
-		"release": 2002
+		"summary": "Student Peter Parker omarmt zijn identiteit als Spiderman om Vulture te bestrijden. Hiermee zet hij zijn familie en vrienden echter recht in de vuurlinie.",
+		"release": 2017
 	},
 	{
 		"name": "Spider-man: Into the Spider-Verse",
 		"slug": "spider-man-into-spider-verse",
 		"thumbnail": "/images/spider-man_into_the_spider-verse.jpg",
-		"release": 2002
+		"summary": "Hij beschermt de buurt tegen misdaad. Zij ook. En die kleine daar ook. Als je erin gelooft, past iedereen het masker.",
+		"release": 2018
+	},
+	{
+		"name": "Spider-man: Far from home",
+		"slug": "spider-man-far-from-home",
+		"thumbnail": "/images/spider-man_far_from_home.jpg",
+		"summary": "Spider-Man bundelt zijn krachten met Nick Fury en Mysterio om te voorkomen dat vier gigantische elementaire wezens, die elk aarde, lucht, water en vuur vertegenwoordigen, gigantische schade aanrichten in heel Europa.",
+		"release": 2019
+	},
+	{
+		"name": "Spider-man: No way home",
+		"slug": "spider-man-no-way-home",
+		"thumbnail": "/images/spider-man_no_way_home.jpg",
+		"summary": "De identiteit van Spider-Man is onthuld, en hij kan zijn normale leven niet langer gescheiden houden van zijn gevaarlijke leven als superheld. Als hij Doctor Strange om hulp vraagt, staat er meer op het spel dan ooit tevoren. Hierdoor wordt hij gedwongen om onder ogen te zien wat het nu echt betekent om Spider-Man te zijn.",
+		"release": 2021
 	},
 	{
 		"name": "Spider-man: Across the Spider-Verse",
 		"slug": "spider-man-across-spider-verse",
 		"thumbnail": "/images/spider-man_across_the_spider-verse.jpg",
-		"release": 2002
+		"summary": "Wanneer Miles Morales onverwachts bezocht wordt door Gwen Stacy, wordt hij meegezogen in een missie om alle universums te redden tegen een nieuwe vijand. Tijdens hun reis door het multiversum ontmoeten ze een team van Spider-People.",
+		"release": 2023
 	}
 ]
