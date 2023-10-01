@@ -4,24 +4,25 @@ const app = express();
 const port = 3000;
 
 app.use(expressLayouts);
-app.set("layout", "./layouts/layout");
+app.set("layout", "./(grid)/layouts/layout");
 app.set("views", "./pages");
 app.set("view engine", "ejs");
 
 app.use(express.static("public"));
 
-app.get("/", async (req, res) => {
+app.get("/grid/", async (req, res) => {
 	const movies = await loadMovies();
-	res.render("index", { movies });
+	res.render("(grid)/index", { movies });
 });
 
-app.get("/movie/:slug", async (req, res) => {
+app.get("/grid/movie/:slug", async (req, res) => {
 	const movies = await loadMovies();
 
 	const movie = movies.find((movie) => movie.slug === req.params.slug);
 
-	res.render("movie", { movie });
+	res.render("(grid)/movie", { movie });
 });
+
 app.listen(port, () => {
 	console.log(`App running on http://localhost:${port}`);
 });
