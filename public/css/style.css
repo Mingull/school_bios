@@ -27,12 +27,12 @@
 	margin-right: auto;
 }
 .section {
-	margin-top: 3rem;
-	margin-bottom: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .section.box {
-	background-color: var(--clr-teal);
+	background-color: var(--clr-red);
 }
 /* ELEMENT STYLING */
 
@@ -179,6 +179,51 @@
 	color: var(--clr-zinc-500);
 	margin: 0;
 	margin-bottom: 1rem;
+}
+
+.carousel {
+	max-width: 700px;
+}
+
+.carousel__inner {
+	padding-block: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.carousel[data-animated="true"] {
+	overflow: hidden;
+	-webkit-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+	mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.carousel[data-animated="true"] .carousel__inner {
+	width: max-content;
+	flex-wrap: nowrap;
+	animation: scroll var(--_animation-duration, 40s) var(--_animation-direction, forwards) linear infinite;
+}
+
+.carousel[data-direction="right"] {
+	--_animation-direction: reverse;
+}
+
+.carousel[data-direction="left"] {
+	--_animation-direction: forwards;
+}
+
+.carousel[data-speed="fast"] {
+	--_animation-duration: 20s;
+}
+
+.carousel[data-speed="slow"] {
+	--_animation-duration: 60s;
+}
+
+@keyframes scroll {
+	to {
+		transform: translate(calc(-50% - 0.5rem));
+	}
 }
 
 .footer {

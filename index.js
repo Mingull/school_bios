@@ -5,6 +5,7 @@ const port = 3000;
 
 app.use(expressLayouts);
 app.set("layout", "./(grid)/layouts/layout");
+app.set("layout", "./(tailwind)/layouts/layout");
 app.set("views", "./pages");
 app.set("view engine", "ejs");
 
