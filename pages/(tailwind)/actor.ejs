@@ -1,0 +1,23 @@
+<section class="py-12">
+	<div
+		class="flex justify-between mx-auto w-[90%] sm:w-[70%] md:w-[90%] lg:w-[90%] xl:w-[90%] 2xl:w-[90%] min-[1792px]:w-[90%] min-[2048px]:w-[70%]"
+	>
+		<div class="grid grid-cols-3 gap-12">
+			<img class="w-full" src="<%= actor.thumbnail %>" alt="<%= actor.name %>" />
+			<div class="col-span-2 mb-4">
+				<div class="info">
+					<h2 class="mb-0 text-2xl font-bold"><%= actor.name %></h2>
+					<p class="m-0 mb-4 text-zinc-500">Geboren op: <%= actor.birthday %></p>
+
+					<% for (let i = 0; i < actor.description.split(".").length; i++) { %>
+					<p class="mx-0 my-2">
+						<%= actor.description.split(".")[i].replace(/&period;/g, '.') + (i !=
+						actor.description.split(".").length - 1 ? '.': '') %>
+					</p>
+
+					<% } %>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

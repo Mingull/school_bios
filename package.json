@@ -4,7 +4,8 @@
 	"description": "school website",
 	"main": "index.js",
 	"scripts": {
-		"dev": "nodemon ."
+		"dev": "nodemon .",
+		"tailwind": "npx tailwindcss -i ./public/css/tailwindcss/input.css -o ./public/css/tailwindcss/output.css --watch"
 	},
 	"author": "Mingull",
 	"license": "ISC",

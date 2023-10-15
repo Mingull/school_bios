@@ -195,6 +195,7 @@
 .search__bar:focus {
 	color: var(--clr-zinc-900);
 }
+
 .search__button {
 	width: 2.5rem;
 	height: 2rem;

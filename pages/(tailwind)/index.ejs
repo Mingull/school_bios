@@ -1,0 +1,53 @@
+<section class="py-12">
+	<div
+		class="flex justify-between mx-auto w-[90%] sm:w-[70%] md:w-[90%] lg:w-[90%] xl:w-[90%] 2xl:w-[90%] min-[1792px]:w-[90%] min-[2048px]:w-[70%]"
+	>
+		<div class="carousel" data-speed="slow">
+			<div class="carousel__inner">
+				<% movies.forEach((movie) => { %>
+				<div class="carousel__content">
+					<img class="carousel__image" src="<%= movie.thumbnail %>" alt="<%= movie.name %>" />
+				</div>
+				<% }); %>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="py-12 bg-red-500">
+	<div
+		class="flex justify-between mx-auto w-[90%] sm:w-[70%] md:w-[90%] lg:w-[90%] xl:w-[90%] 2xl:w-[90%] min-[1792px]:w-[90%] min-[2048px]:w-[70%]"
+	>
+		<div id="grid" class="grid grid-cols-4 gap-12">
+			<% movies.forEach((movie) => { %>
+			<div
+				class="relative group w-96 h-[36rem] bg-zinc-50 rounded-lg overflow-hidden shadow-lg text-white cursor-pointer z-[1] after:w-full after:h-1/3 after:bg-gradient-to-b after:from-transparent after:to-black after:absolute after:top-2/3 after:left-0 after:transition-[top,height] hover:after:top-[30%] hover:after:h-[70%]"
+				onclick="location.href='/tailwind/movie/<%= movie.slug %>'"
+			>
+				<img
+					class="absolute top-0 left-0 object-cover w-full h-full transition-opacity duration-200 opacity-70 group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
+					src="<%= movie.thumbnail %>"
+					alt="<%= movie.name %>"
+				/>
+
+				<p
+					class="absolute top-auto right-auto bottom-7 left-7 m-0 font-bold uppercase z-[1] transition-[inset] duration-300 delay-0 ease-out group-hover:bottom-1/2 group-hover:delay-0"
+				>
+					<%= movie.name %>
+				</p>
+				<p
+					class="absolute opacity-0 max-w-[80%] transition-opacity z-[1] top-auto right-auto bottom-20 left-8 duration-300 group-hover:opacity-100 group-hover:duration-500 group-hover:delay-100"
+				>
+					<%= movie.summary %>
+				</p>
+				<a
+					class="absolute opacity-0 max-w-[80%] transition-opacity z-[1] text-inherit top-auto right-auto bottom-8 left-8 duration-300 group-hover:opacity-100 group-hover:duration-500 group-hover:delay-100"
+					href="/tailwind/movie/<%= movie.slug %>"
+					>More -></a
+				>
+			</div>
+			<% }); %>
+		</div>
+	</div>
+</section>
+
+<script src="/js/carousel.js" defer></script>

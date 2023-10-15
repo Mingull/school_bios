@@ -1,0 +1,36 @@
+<section class="py-12">
+	<div
+		class="flex justify-between mx-auto w-[90%] sm:w-[70%] md:w-[90%] lg:w-[90%] xl:w-[90%] 2xl:w-[90%] min-[1792px]:w-[90%] min-[2048px]:w-[70%]"
+	>
+		<div class="grid grid-cols-3 gap-12">
+			<img class="w-full" src="<%= movie.thumbnail %>" alt="<%= movie.name %>" />
+			<div class="col-span-2 mb-4">
+				<div class="info">
+					<h2 class="mb-0 text-2xl font-bold"><%= movie.name %></h2>
+					<p class="m-0 mb-4 text-zinc-500">Uitgebracht jaar: <%= movie.release %></p>
+
+					<% for (let i = 0; i < movie.description.split(".").length; i++) { %>
+					<p class="mx-0 my-2">
+						<%= movie.description.split(".")[i] + (i != movie.description.split(".").length - 1 ? '.': '')
+						%>
+					</p>
+
+					<% } %>
+				</div>
+				<div class="p-4 mt-8 rounded-lg bg-zinc-200">
+					<h3 class="text-lg font-bold">Acteur(s)</h3>
+					<div class="grid grid-cols-4">
+						<% actors.forEach((actor)=>{ %>
+						<div class="col">
+							<a href="/tailwind/actor/<%= actor.slug %>">
+								<img width="200px" src="<%= actor.thumbnail %>" alt="" />
+								<p><%- actor.name %></p>
+							</a>
+						</div>
+						<% }) %>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

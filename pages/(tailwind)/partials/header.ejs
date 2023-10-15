@@ -1,9 +1,29 @@
 <header>
-	<nav class="nav">
-		<div class="container">
-			<h1 class="title"><a href="/grid">Spider-scoop</a></h1>
-			<ul class="navlist">
-				<li class="navlink"><a href="/grid/about">About</a></li>
+	<nav class="p-4 text-white bg-blue-500">
+		<div
+			class="flex justify-between mx-auto w-[90%] sm:w-[70%] md:w-[90%] lg:w-[90%] xl:w-[90%] 2xl:w-[90%] min-[1792px]:w-[90%] min-[2048px]:w-[70%]"
+		>
+			<h1 class="text-2xl font-bold"><a class="text-white no-underline" href="/tailwind">Spider-scoop</a></h1>
+			<ul class="flex items-center justify-center gap-4 list-none">
+				<li class="px-3 py-1 border-2 border-blue-500 rounded hover:border-red-500 group">
+					<a class="group-hover:text-red-500" href="/tailwind/about">About</a>
+				</li>
+				<li class="px-3 py-1 border-2 border-blue-500 rounded hover:border-red-500 group">
+					<a class="group-hover:text-red-500" href="/tailwind/form">Form</a>
+				</li>
+				<li class="flex items-center justify-center w-full list-none">
+					<input
+						class="w-full p-1 border-2 border-r-0 rounded-tl rounded-bl outline-none text-zinc-500 border-zinc-600 focus:text-zinc-900"
+						type="text"
+						placeholder="Zoek..."
+					/>
+					<button
+						type="submit"
+						class="w-10 text-xl text-center text-white border-2 rounded-tr rounded-br cursor-pointer h-9 border-zinc-600 bg-zinc-600"
+					>
+						<i class="fa fa-search"></i>
+					</button>
+				</li>
 			</ul>
 		</div>
 	</nav>
